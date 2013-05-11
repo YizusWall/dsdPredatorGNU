@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0;
+padding:0;
+border:0;
+width:100%;
+font: 12px  verdana, arial, helvetica;
+background-color:#CCCCCC;
+}
+
+#contenedor{
+	margin:0 auto;
+	font-family:Arial;
+	width:950px;
+	border:1px solid #e8e8e4;
+	overflow: hidden;
+	position:relative;
+	z-index:5;
+	background-color: #ffffff;
+}
+
+#cabecera{
+	width:950px;
+	overflow: hidden;
+	height:120px;
+	margin:auto;
+	background-color:#006699;
+	padding:10px 10px 0px 30px;
+}
+
+#logo{
+	width:100px;
+	margin-right:50px;
+	float:left;
+}
+
+/*--------------	DIV DEL MENU Y SUS COMPONENTES-----------*/
+#menu{
+	width:600px;
+	height:24px;
+	float:left;
+	padding:92px 0 0 0;
+}
+#menu ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+#menu ul li{
+	float:left;width:auto;height:30px;padding:0px;line-height:32px; font-family:verdana; font-size:16px;font-weight:bold;
+}
+#menu ul li a{
+height:30px; width: auto;float:left;text-decoration:none;padding:0 8px 0 8px; margin:0px;color:#ffffff;text-align:center;
+}
+#menu ul li a:hover{
+height:30px;width: auto;text-decoration:none;color: #0066CC;background-color:#FFFFFF;
+}
+#menu ul li a.current{
+height:30px;width: auto;float:left;text-decoration:none;padding:0 8px 0 8px;color: #003399;
+}
+
+#content{
+width:950px;
+height: auto;
+margin: auto;
+background-color:#fff;
+padding:10px 10px 10px 30px;
+overflow: hidden;
+}
+
+#izquierda{
+	width:550px;
+	float:left;
+}
+
+.titulo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#003366;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.detalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	margin-bottom:20px;
+}
+
+#noticia1{
+	display:none;
+	width:550px;
+}
+
+
+#derecha{
+	width:350px;
+	float:left;
+	margin-left:30px;
+}
+
+
+
+
+#pie{
+width:950px;
+height: auto;
+margin: auto;
+background-color:#006699;
+padding:10px 30px 10px 30px;
+overflow: hidden;
+}
+
+#pie1{
+width:400px;
+float:left;
+color: #ffffff;
+
+}
+#pie2{
+width:350px;
+float:right;
+color: #ffffff;
+}
+
+/* Estilos - Grid */
+
+.grilla_titulo {
+  color: #003366;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.grilla_cabecera {
+  background-color: #003366;
+  color: #FFFFFF;
+  font-family: Verdana, Helvetica, Arial;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.grilla_campo {
+  color: #003366;
+  font-family: Verdana, Helvetica, Arial;
+  font-weight: normal;
+  font-size: 9px;
+}
+
+.mensaje
+{
+  color: blue;    
+}
